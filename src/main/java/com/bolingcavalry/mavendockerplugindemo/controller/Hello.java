@@ -11,6 +11,6 @@ public class Hello {
     @RequestMapping("/")
     public String sayHello(){
     	//修改返回的字符串的内容
-        return "jenkins ci test, " + new Date();
+        return "jenkins ci/cd test, " + new Date();
     }
 }
